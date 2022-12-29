@@ -1,0 +1,15 @@
+{
+  "env": {
+    "baseUrl": "https://ted.com",
+    "loginPageURL": "https://auth.ted.com/users/new",
+    "MAILOSAUR_SERVER_ID": "",
+    "MAILOSAUR_API_KEY": ""
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 2
+  },
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "projectId": "dwj291"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "cucumber-ted-cucumber-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:test": "cypress run --spec \"**/*.feature\""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing",
+    "ted"
+  ],
+  "author": "Twayne Street",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "4.0.0",
+    "cypress-mailosaur": "^2.13.0",
+    "typescript": "4.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration",
+    "nonGlobalStepBaseDir": "cypress/integration",
+    "commonPath": "common"
+  }
+}
