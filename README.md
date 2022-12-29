@@ -1,5 +1,5 @@
 ## Description
-Cypress tests written using cucumber and typescript. These tests are ran against the Ted.com website
+This framework has been constructed utilising Cypress and comprises tests written in Cucumber and TypeScript, which are executed against the Ted.com website.
 
 ## Setup
 Install Node.js (version LTS recommended) from https://nodejs.org
